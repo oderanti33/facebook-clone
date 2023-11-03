@@ -1,0 +1,14 @@
+.underlineroot {
+    background-color: #E5E5E5;
+    height: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+.underlineroot h6 {
+    font-size: 0px;
+}

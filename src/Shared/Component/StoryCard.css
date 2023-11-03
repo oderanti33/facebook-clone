@@ -1,0 +1,40 @@
+.storyCardcontainer {
+    position: relative;
+    width: 120px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.center {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    /* font-size: 18px; */
+
+}
+
+img {
+    width: 100%;
+    height: auto;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.center img {
+    width: 30px;
+    height: 30px;
+    border: 5px solid #1876F2;
+    border-radius: 50px;
+}
+
+.name {
+    position: absolute;
+    top: 60%;
+    color: whitesmoke;
+    size: 5px;
+    left: 35%;
+}
+
+.name h7 {
+    font-size: 0.2em;
+}

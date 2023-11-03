@@ -1,0 +1,328 @@
+.group1Container {
+    background-color: #F0F2F5;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 50px;
+    /* height: 500px; */
+}
+
+.groupLeftSide {
+    position: fixed;
+    top: 3em;
+    left: 0;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 25%;
+    padding: 10px;
+    /* height: 320px; */
+    /* right: 30px; */
+    /* z-index: 2; */
+}
+
+.groupLeftSide svg {
+    background-color: #E4E6EB;
+    border-radius: 50%;
+    padding: 5px;
+    /* margin-right: 10px; */
+}
+
+.groupLeftSideTop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 97%;
+    margin-bottom: 0.5em;
+    /* padding: 12px; */
+}
+
+.groupLeftSideTop h4 {
+    font-size: 25px;
+    line-height: 0;
+    margin: 0
+}
+
+
+.groupLeftSideTop2 {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+}
+
+.groupLeftSideBottom {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    margin: 5px 0px;
+    /* padding: 8px; */
+    background-color: #F0F2F5;
+    height: 50px;
+    border-radius: 6px;
+}
+
+.groupLeftSideBottom svg {
+    background-color: #1877F2;
+    color: #FFFFFF;
+
+}
+
+.groupLeftSideBottomIn h6 {
+    margin-left: 10px;
+}
+
+.groupLeftSideBottomIn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    /* width: 100%; */
+}
+
+.groupLeftSideBottomIn2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+}
+
+.groupLeftSideBottomInarrow {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* padding: 10px; */
+    width: 100%;
+}
+
+.groupLeftSideBottomInarrow h6 {
+    margin-left: 10px;
+}
+
+.groupLeftSideBottom2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    margin: 5px 0px;
+    /* padding: 8px; */
+    /* background-color: #F0F2F5; */
+    height: 40px;
+    border-radius: 6px;
+}
+
+.icon svg {
+    background-color: transparent;
+    border-radius: 0;
+    padding: 0;
+    width: 20px;
+    height: 20px;
+}
+
+.groupcreateNewList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 8px 0px;
+    /* padding: 8px; */
+    background-color: #E7F3FF;
+    height: 35px;
+    border-radius: 6px;
+}
+
+.groupcreateNewList h6 {
+    color: #247FF2;
+    font-size: 1em;
+    text-align: center;
+}
+
+
+.groupcategory {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+    margin: 12px 0px;
+}
+
+.groupcategoryheading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.groupcategoryheading button {
+    background-color: transparent;
+    border: none;
+    color: #216FDB;
+    cursor: pointer;
+
+}
+
+.groupcategoryheading h6 {
+    font-size: 18px;
+}
+
+.groupRightSide {
+    top: 1em;
+    width: 70%;
+    background-color: none;
+    margin-left: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    /* flex-direction: column; */
+    /* margin: 20px; */
+    position: relative;
+}
+
+.groupPlaceTop {
+    background-color: none;
+}
+
+.groupchatsToJoin {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    position: absolute;
+    right: 0;
+    /* top: 50px; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 32%;
+    padding: 20px;
+}
+
+.groupchatsToJoin h3 {
+    font-size: 17px;
+    /* line-height: 0; */
+    margin: 0;
+    font-weight: 500;
+}
+
+.groupCardTopLeft {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 50%; */
+    margin-left: 15px;
+    margin-top: 15px;
+    /* margin: 5px 0px; */
+}
+
+.groupMainpicture {
+    position: relative;
+}
+
+.groupPicture img {
+    width: 35px;
+    height: 35px;
+    border-radius: 10px;
+    /* width: 20px; */
+}
+
+/* .senderPicture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    background-color: blue;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: 17px;
+} */
+
+.groupSenderPicture svg {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    position: absolute;
+    right: 17px;
+    top: 17px;
+    color: #FFFFFF;
+    background-color: #CECFDA;
+    padding: 5px;
+    /* border-width: 10px; */
+    /* border-color: blue solid; */
+    /* width: 20px; */
+}
+
+.groupChatRight {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    /* width: 70%; */
+    margin-left: 10px;
+}
+
+.groupChatRightHeading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    /* height: 20px; */
+}
+
+.groupChatRightSub {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.groupChatRightHeading h6 {
+    margin: 0px;
+    font-size: 1em;
+    font-weight: 400;
+    color: #65676B;
+}
+
+.groupChatRightSub h5 {
+    margin: 0px;
+    font-size: 13px;
+    font-weight: 300;
+    color: #65676B;
+}
+
+.groupDivScroll {
+    width: 100%;
+    /* height: 500px; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    background: none;
+    /* position: fixed; */
+    /* top: 70px; */
+    /* left: 20px; */
+    height: 500px;
+    overflow: scroll;
+    overflow-x: hidden;
+    /* width: 20%; */
+    /* padding-top: 1em; */
+}
+
+.groupDivScroll::-webkit-scrollbar {
+    width: 8px;
+}
+
+.groupDivScroll::-webkit-scrollbar-thumb {
+    background: grey;
+    border-radius: 10px;
+}
+
+.groupDivScroll::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}

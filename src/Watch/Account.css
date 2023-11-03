@@ -1,0 +1,114 @@
+.accountContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+    right: 20px;
+    top: 35px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    width: 320px;
+    z-index: 20;
+    padding: 10px;
+}
+
+.accountTop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    width: 100%;
+    /* box-shadow: 5px 5px 5px 5px #F4F4F4; */
+}
+
+.accountTop1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0px 10px;
+}
+
+.accountTop1 img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.changeGroup img {
+    width: 20px;
+    height: 20px;
+    border: 50px;
+}
+
+.accountTop1 h6 {
+    font-size: 17px;
+}
+
+.changeGroup {
+    position: relative;
+}
+
+.changeGroup img {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+    bottom: 18px;
+    right: 10px;
+    border-width: 100px;
+    border-color: #FFFFFF;
+}
+
+.changeGroup svg {
+    width: 45px;
+    height: 45px;
+}
+
+.accountTop2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.accountTop2 h5 {
+    color: #1876F2;
+}
+
+.accountTop2 h6 {
+    color: white;
+    font-size: 12px;
+    background-color: #E41E3F;
+    border-radius: 50%;
+    padding: 1px;
+    height: 17px;
+    width: 17px;
+    text-align: center;
+}
+
+.accountDown {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 5px 0px;
+}
+
+.accountDownLeft {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 70%;
+}
+
+.accountDownLeft svg {
+    background-color: #E4E6EB;
+    border-radius: 50%;
+    padding: 5px;
+    margin-right: 10px;
+}

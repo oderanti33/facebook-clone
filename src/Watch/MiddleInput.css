@@ -1,0 +1,78 @@
+.MiddleInputContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 35px;
+    padding: 0;
+}
+
+.MiddleInputContainer input {
+    /* color: #E8EAED; */
+    /* border-radius: 50px; */
+    padding: 0px 10px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    background: #E8EAED;
+    border-width: 0;
+    /* height: 30px; */
+    width: 60%;
+    height: 100%;
+    /* padding: 0; */
+}
+
+.SenderIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 10%;
+    background-color: none;
+    /* padding: 0px 4px; */
+    border-radius: 50%;
+    position: relative;
+
+}
+
+.SenderIcon svg {
+    background-color: #E8EAED;
+    padding: 1px;
+    border-radius: 50%;
+    /* height: 14px; */
+    height: 90%;
+    width: 35px;
+    /* padding-left: 10px; */
+    color: black;
+}
+
+.MoreArrow svg {
+    background-color: #E8EAED;
+    padding: 0.01em;
+    border-radius: 50%;
+    /* height: 14px; */
+    height: 15px;
+    width: 15px;
+    /* padding-left: 10px; */
+    color: black;
+    position: absolute;
+    right: 5px;
+    bottom: 0;
+}
+
+.emojiContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #E8EAED;
+    height: 100%;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    width: 30%;
+    padding: 0px 10px;
+}
+
+.emojiContainer svg {
+    color: #6B727A;
+    width: 20px;
+    height: 20px;
+}

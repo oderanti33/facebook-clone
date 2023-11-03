@@ -1,0 +1,241 @@
+.gameContainer {
+    background-color: #F0F2F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 50px;
+    height: 320px;
+}
+
+.gameLeftSide {
+    position: fixed;
+    left: 0;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 25%;
+    padding: 10px;
+    top: 3em;
+    /* height: 320px; */
+    /* right: 30px; */
+    z-index: 1;
+}
+
+.gameLeftSide svg {
+    background-color: #E4E6EB;
+    border-radius: 50%;
+    padding: 5px;
+    /* margin-right: 10px; */
+}
+
+.gameLeftSideTop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 0.5em;
+    /* padding: 12px; */
+}
+
+.gameLeftSideTop h4 {
+    font-size: 25px;
+    line-height: 0;
+    margin: 0
+}
+
+.gameLeftSideTop2 input {
+    color: #E8EAED;
+    border-radius: 50px;
+    background: #E8EAED;
+    border-width: 0;
+    height: 30px;
+    width: 100%;
+}
+
+.gameLeftSideTop2 {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.gameLeftSideBottom {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    margin: 5px 0px;
+    /* padding: 8px; */
+    background-color: #F0F2F5;
+    height: 50px;
+    border-radius: 6px;
+}
+
+.gameLeftSideBottom svg {
+    background-color: #1877F2;
+    color: #FFFFFF;
+
+}
+
+.gameLeftSideBottomIn h6 {
+    margin-left: 10px;
+}
+
+.gameLeftSideBottomIn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    /* width: 100%; */
+}
+
+.gameLeftSideBottomIn2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+}
+
+.gameLeftSideBottomInarrow {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* padding: 10px; */
+    width: 100%;
+}
+
+.gameLeftSideBottomInarrow h6 {
+    margin-left: 10px;
+}
+
+.gameLeftSideBottom2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    margin: 5px 0px;
+    /* padding: 8px; */
+    /* background-color: #F0F2F5; */
+    height: 40px;
+    border-radius: 6px;
+}
+
+.icon svg {
+    background-color: transparent;
+    border-radius: 0;
+    padding: 0;
+    width: 20px;
+    height: 20px;
+}
+
+
+.gamecategory {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+    margin: 12px 0px;
+}
+
+.gamecategory h5 {
+    font-size: 14px;
+    font-weight: 400;
+    /* line-height: 0; */
+    margin: 0;
+    padding: 0;
+}
+
+.gamecategoryheading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.gamecategoryheading button {
+    background-color: transparent;
+    border: none;
+    color: #216FDB;
+    cursor: pointer;
+
+}
+
+.gamecategoryheading h6 {
+    font-size: 18px;
+}
+
+.gamecategoryheading h5 {
+    font-size: 12px;
+}
+
+.TodayPlaceTop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.TodayPlaceTop h4 {
+    font-size: 22px;
+}
+
+.gameRightSide {
+    width: 950px;
+    background-color: green;
+    margin-left: 350px;
+    /* margin: 20px; */
+}
+
+.TodayPlaceContainer {
+    margin: 20px;
+}
+
+.TodayPlaceTopRight {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 14%;
+    color: #189CF3;
+}
+
+.gamePlaceContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0px;
+}
+
+.groupDivScroll {
+    width: 100%;
+    /* height: 500px; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    background: none;
+    /* position: fixed; */
+    /* top: 70px; */
+    /* left: 20px; */
+    height: 550px;
+    overflow: scroll;
+    overflow-x: hidden;
+    /* width: 20%; */
+    /* padding-top: 1em; */
+}
+
+.groupDivScroll:hover::-webkit-scrollbar {
+    width: 8px;
+}
+
+.groupDivScroll:hover::-webkit-scrollbar-thumb {
+    background: grey;
+    border-radius: 10px;
+}
+
+.groupDivScroll:hover::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}

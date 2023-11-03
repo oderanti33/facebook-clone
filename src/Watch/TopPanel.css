@@ -1,0 +1,55 @@
+.TopPanelContainer {
+    width: 100%;
+    background-color: white;
+    border-radius: 0.5em;
+    padding-bottom: 1em;
+    overflow: hidden;
+}
+
+.TopPanelHeader {
+    width: 94%;
+    background-color: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 1em;
+
+}
+
+.TopPanelHeader button {
+    width: 50%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 3px solid blue;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: blue;
+    height: 4em;
+    padding: 0.5em;
+}
+
+.TopPanelHeader svg {
+    width: 1em;
+    height: 1em;
+    margin-right: 0.2em;
+}
+
+.TopPanelHeader h4 {
+    font-weight: 800;
+}
+
+
+.TopPanelBottom {
+    width: 100%;
+    margin-top: 1em;
+    margin-left: 0.6em;
+    overflow: hidden;
+}
+
+/* #button {
+    width: 50%;
+    background-color: blue;
+} */

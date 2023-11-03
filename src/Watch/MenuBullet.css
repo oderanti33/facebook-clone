@@ -1,0 +1,38 @@
+.menuBulletContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0px;
+    /* height: 40px; */
+}
+
+.menuBulletLeft {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.menuBulletLeft {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1em;
+    /* width: 400px; */
+}
+
+.menuBulletLeft h5 {
+    font-size: 1em;
+    font-weight: 500;
+    color: #050505;
+    /* line-height: 7px; */
+    margin: 0;
+}
+
+.menuBulletLeft h6 {
+    font-size: 13px;
+    font-weight: 300;
+    color: #050505;
+    /* line-height: 7px; */
+
+}

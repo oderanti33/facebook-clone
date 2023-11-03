@@ -1,0 +1,16 @@
+.dotContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 2px;
+    height: 2px; */
+    /* padding: 1px; */
+    margin: 0px 2px;
+}
+
+.dotContainer svg {
+    width: 2px;
+    height: 2px;
+    color: #B3B4B6;
+    /* padding: 1px; */
+}

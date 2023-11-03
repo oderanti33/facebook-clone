@@ -1,0 +1,55 @@
+.CarolTestContainer2 {
+    position: relative;
+    width: 122%;
+}
+
+.CarolTestContainer2 {
+    position: relative;
+    /* width: 100%; */
+}
+
+
+.button {
+    position: absolute;
+    bottom: 60%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+    /* border-radius: 90%; */
+    background-color: none;
+    color: none;
+    /* padding-left: 20px; */
+}
+
+/* .CarolCard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+} */
+
+.prevButton {
+    position: absolute;
+    left: 15px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    width: 3.5em;
+    height: 3.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nextButton {
+    position: absolute;
+    right: 140px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    width: 3.5em;
+    height: 3.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

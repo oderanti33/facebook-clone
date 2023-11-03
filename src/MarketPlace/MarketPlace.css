@@ -1,0 +1,302 @@
+.market1Container {
+    background-color: #F0F2F5;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+    /* top: 25px; */
+    /* height: 200vh; */
+    z-index: -1;
+}
+
+.market1LeftSide {
+    position: fixed;
+    top: 2.7em;
+    left: 0;
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    width: 25%;
+    padding: 10px;
+    padding-top: 15px;
+    /* overflow-y: scroll; */
+    /* z-index: 5; */
+    /* height: 100dvh; */
+    /* right: 30px; */
+    z-index: 2;
+}
+
+.market1LeftSide svg {
+    background-color: #E4E6EB;
+    border-radius: 50%;
+    padding: 5px;
+    /* margin-right: 10px; */
+}
+
+.marketLeftSideTop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 0.5em;
+    /* padding: 12px; */
+}
+
+.marketLeftSideTop h4 {
+    font-size: 25px;
+    line-height: 0;
+    margin: 0
+}
+
+.marketLeftSideTop2 input {
+    color: #E8EAED;
+    border-radius: 50px;
+    background: #E8EAED;
+    border-width: 0;
+    height: 30px;
+    width: 100%;
+}
+
+.marketLeftSideTop2 {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.marketLeftSideBottom {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    margin: 5px 0px;
+    /* padding: 8px; */
+    background-color: #F0F2F5;
+    height: 50px;
+    border-radius: 6px;
+}
+
+.marketLeftSideBottom svg {
+    background-color: #1877F2;
+    color: #FFFFFF;
+
+}
+
+.marketLeftSideBottomIn h6 {
+    margin-left: 10px;
+}
+
+.marketLeftSideBottomIn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    /* width: 100%; */
+}
+
+.marketLeftSideBottomIn2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+}
+
+.marketLeftSideBottomInarrow {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* padding: 10px; */
+    width: 100%;
+}
+
+.marketLeftSideBottomInarrow h6 {
+    margin-left: 10px;
+}
+
+.marketLeftSideBottom2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    margin: 5px 0px;
+    /* padding: 8px; */
+    /* background-color: #F0F2F5; */
+    height: 40px;
+    border-radius: 6px;
+}
+
+.icon svg {
+    background-color: transparent;
+    border-radius: 0;
+    padding: 0;
+    width: 20px;
+    height: 20px;
+}
+
+.marketCreateNewList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 8px 0px;
+    /* padding: 8px; */
+    background-color: #E7F3FF;
+    height: 50px;
+    border-radius: 6px;
+}
+
+.marketCreateNewList h6 {
+    color: #247FF2;
+}
+
+.filter {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+    margin: 12px 0px;
+}
+
+.filterheading {
+    font-size: 18px;
+
+}
+
+.filterDown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #3A8AF4;
+    margin-top: 12px;
+}
+
+.filterDown svg {
+    background-color: transparent;
+    width: 2px;
+    height: 2px;
+}
+
+.category {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+    margin: 12px 0px;
+}
+
+.categoryheading {
+    font-size: 18px;
+}
+
+/* .marketTodayPlaceContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.TodayPlaceTop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.marketTodayPlaceTop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.marketTodayPlaceTopRight {
+    color: #3A8AF4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.marketDot svg {
+    color: #3A8AF4;
+}
+
+.marketDot {
+    margin: 0px 0.2em;
+    color: #3A8AF4;
+}
+
+.marketTodayPlaceTop h4 {
+    font-size: 22px;
+    line-height: 0;
+}
+
+.marketTodayPlaceTop h5 {
+    line-height: 0;
+    font-size: 1em;
+    font-weight: 400;
+    color: #3A8AF4;
+}
+
+.marketRightSide {
+    margin-top: 3.7em;
+    margin-left: 375px;
+    width: 960px;
+    /* background-color: #E7F3FF; */
+    /* margin: 20px; */
+}
+
+.TodayPlaceContainer {
+    margin: 20px;
+}
+
+.TodayPlaceTopRight {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 14%;
+    color: #189CF3;
+}
+
+.marketPlaceContainer {
+    display: flex;
+    /* justify-content: center; */
+    justify-content: stretch;
+    align-items: stretch;
+    /* overflow: scroll; */
+    margin: 30px 0px;
+    flex-wrap: wrap;
+}
+
+.divScroll {
+    width: 100%;
+    /* height: 500px; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    background: none;
+    /* position: fixed; */
+    /* top: 70px; */
+    /* left: 20px; */
+    height: 600px;
+    overflow: scroll;
+    overflow-x: hidden;
+    /* width: 20%; */
+    /* padding-top: 1em; */
+}
+
+.divScroll::-webkit-scrollbar {
+    width: 8px;
+}
+
+.divScroll::-webkit-scrollbar-thumb {
+    background: grey;
+    border-radius: 10px;
+}
+
+.divScroll::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}

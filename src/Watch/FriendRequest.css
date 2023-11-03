@@ -1,0 +1,104 @@
+.friendRequestContainer {
+    margin: 10px 0px;
+}
+
+.fRTop {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.fRAvartar {
+    position: relative;
+    margin-right: 1em;
+}
+
+.fRAvartar img {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+}
+
+.fRAvartar svg {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #138DF0;
+    padding: 3px;
+    color: white;
+    right: -5px;
+    bottom: -5px;
+}
+
+.fRTopleft {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fRTopleft svg {
+    color: #1876F2;
+    width: 15px;
+    height: 15px;
+    margin-left: 8px;
+}
+
+.friendrequest svg {
+    background-color: #138DF0;
+}
+
+.birthday svg {
+    background-color: #EA3AA1;
+}
+
+.alert svg {
+    background-color: #FB7A17;
+}
+
+.announcement svg {
+    background-color: #5B5F64;
+}
+
+.fRTopleft span {
+    font-weight: 400;
+}
+
+.day {
+    color: #138DF0;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.fRTopleft h7 {
+    font-weight: 300;
+    font-size: 13px;
+}
+
+/* .fRTopleft h6 {
+    max-width: 15ch;
+} */
+
+.fRButton {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+
+.fRButton button {
+    padding: 10px 25px;
+    border-radius: 5px;
+    border-width: 0;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.confirmButton {
+    background-color: #1B74E4;
+    color: white;
+}
+
+.deleteButton {
+    background-color: #E4E6EB;
+}

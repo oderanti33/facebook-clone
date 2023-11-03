@@ -1,0 +1,51 @@
+.groupJoinContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 6px 0px;
+}
+
+.groupJoinContainer img {
+    width: 50px;
+    height: 50px;
+}
+
+.groupJoinLeft {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 70%; */
+}
+
+.groupIn {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 20px;
+    /* width: 80%; */
+}
+
+.groupIn h6 {
+    line-height: 20px;
+}
+
+.groupIn h5 {
+    line-height: 5px;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.groupJoinRight {
+    width: 15%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.groupJoinRight svg {
+    /* background-color: red; */
+    width: 11px;
+    height: 11px;
+}

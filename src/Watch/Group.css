@@ -1,0 +1,28 @@
+.groupContainer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.groupContainer h6 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    font-size: 17px;
+    font-weight: 500;
+    color: #75767B;
+}
+
+.groupBottom {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    margin: 10px 0px;
+}
+
+.groupBottom h6 {
+    margin-left: 10px;
+}

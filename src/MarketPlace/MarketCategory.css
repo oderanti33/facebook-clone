@@ -1,0 +1,81 @@
+.marketCategoryTodayPlaceContainer {
+    margin: 20px 0px;
+}
+
+.TodayPlaceTop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.TodayPlaceTop h4 {
+    font-size: 22px;
+    line-height: 0;
+}
+
+.marketCategoryTodayPlaceTopRight {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 9%;
+    /* color: #189CF3; */
+}
+
+.marketCategoryTodayPlaceTopRight button {
+    background-color: transparent;
+    color: #4893F5;
+    border: none;
+    cursor: pointer;
+}
+
+.marketCategoryTodayPlaceTopRight svg {
+    color: #6F757E;
+}
+
+.MarketCategoryPlaceContainer {
+    display: flex;
+    /* justify-content: center; */
+    justify-content: stretch;
+    align-items: stretch;
+    /* overflow: scroll; */
+    margin: 30px 0px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.marketCardContainer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 10px 10px;
+}
+
+.marketCardContainer img {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 10px;
+}
+
+.marketCardContainer h4 {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0;
+    /* line-height: 0; */
+}
+
+.marketCardContainer h5 {
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+    margin: 0;
+    /* line-height: 0; */
+}
+
+.marketCardContainer h6 {
+    font-size: 12px;
+    font-weight: 300;
+    margin: 0;
+    /* color: #F0F2F5; */
+}

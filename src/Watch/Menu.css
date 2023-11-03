@@ -1,0 +1,83 @@
+.menuContainer {
+    position: fixed;
+    background-color: #F7F8FA;
+    border-radius: 10px;
+    /* width: 500px;
+    height: 500px; */
+    top: 30px;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1em;
+}
+
+.menuContainer h3 {
+    align-self: flex-start;
+    /* width: 100%; */
+}
+
+.menuColumn {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    overflow-y: scroll;
+}
+
+.menuColumn::-webkit-scrollbar {
+    width: 8px;
+}
+
+.menuColumn::-webkit-scrollbar-thumb {
+    background: grey;
+    border-radius: 10px;
+}
+
+.menuColumn::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+.menuCreate {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin: 10px 0px;
+}
+
+.menuCreate svg {
+    background-color: #E4E6EB;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+}
+
+.menuCreate h6 {
+    margin-left: 10px;
+}
+
+.menufirstColumn {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 1em;
+}
+
+.menufirstColumn input {
+    color: #E8EAED;
+    border-radius: 50px;
+    background: #E8EAED;
+    border-width: 0;
+    height: 30px;
+    width: 100%;
+}
+
+.menuSocial {
+    margin: 16px 0px;
+}
+
+.menuSecondColumn {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}

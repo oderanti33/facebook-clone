@@ -1,0 +1,81 @@
+/* .appbar2 {
+    width: 100%;
+} */
+
+/* .tabbar {
+    color: red;
+    width: 35vw;
+    background-color: red;
+} */
+
+/* .tabbar2 {
+    color: red;
+    width: 35vw;
+    background-color: black;
+} */
+
+.detailtab {
+    width: 100%;
+    background-color: greenyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.detailtab2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 200px; */
+    /* flex-wrap: wrap; */
+    /* padding: 0px 30px; */
+    margin: 0;
+    width: 100%;
+}
+
+.tabbar2 {
+    width: 100%;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    /* height: 200px; */
+    /* padding-top: -20px; */
+}
+
+.tabbarreal {
+    height: 50px;
+    width: 50%;
+    /* display: flex;
+    justify-content: flex-end;
+    align-items: flex-end; */
+}
+
+.thickUnderline {
+    margin-top: 1px;
+    display: flex;
+    height: 1px;
+    width: 100%;
+    background-color: red;
+    justify-content: center;
+    align-items: center;
+}
+
+.thickUnderline h6 {
+    opacity: 0;
+}
+
+
+.appBar2Container {
+    width: 100%;
+    /* width: 87%; */
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    border-radius: 7px;
+    flex-direction: column;
+    /* height: 300px; */
+}
